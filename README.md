@@ -1,2 +1,2 @@
 # sorukayisi-backend
-Final Project for Arel University (be)
+Istanbul Arel University Final Project Source Codes (2025)
