@@ -1,0 +1,14 @@
+{
+  "db_name": "PostgreSQL",
+  "query": "\n        UPDATE active_users\n        SET last_seen = CURRENT_TIMESTAMP\n        WHERE session_id = $1\n        ",
+  "describe": {
+    "columns": [],
+    "parameters": {
+      "Left": [
+        "Text"
+      ]
+    },
+    "nullable": []
+  },
+  "hash": "1742aea307ce6442afa9a2571cb34e1ea316485301479ac7999df140fd32bfd8"
+}
